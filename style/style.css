@@ -25,8 +25,33 @@ html, body{
 /** Start header first navbar **/
 
 header{
-    background: #cc8e35;
+    background: #303952;
 }
+
+header li a, header li a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 9pt;
+}
+
+
+header li a:hover, header li a:hover {
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 1px;
+    font-size: 9pt;
+    
+}
+
+.top-left-nav li span{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 9pt;
+    padding: 0 0 0 10px;
+}
+
 .nav-container{
     max-width: 1250px;
     margin:0 auto;
@@ -36,22 +61,41 @@ header{
 .top-right-nav, .top-left-nav{
     list-style: none;;
 }
-.top-right-nav li a, .top-left-nav li a {
-    text-decoration: none;
-    color: #fff;
-    letter-spacing: 1px;
-    font-size: 9pt;
 
+.top-left-nav li{
+   float: left;
+   margin-right:5px;
+   
 }
+
+.top-left-nav li:not(:last-child) a{
+    padding: 0px 10px;
+    width: 100%;
+    border-right: 1px solid #555;
+}
+
 
 .top-right-nav li{
-   float: left;
-   padding: 0px 10px;
-}
-.top-left-nav li{
     float: left;
-    padding: 0px 10px;
+    margin-right:5px;
+
  }
+
+ .top-right-nav li a{
+    padding: 0px 10px;
+    /* border: 1px solid black; */
+ }
+
+ .top-right-nav li:nth-child(5) a{
+    border-left: 1px solid #555;
+ }
+
+ .fa-stack-1x{
+    position:static !important;
+    text-align: unset;
+    width: auto !important;
+ }
+
 
  /** End header first navbar **/
 
@@ -71,14 +115,16 @@ header{
     width:80px;
  }
  .search-w-bottom-menu-container{
-    width: 78%;
+    width: 72%;
  }
  .search-panel{
     padding: 10px;
     position:relative;
  }
+
+
+
  .search-panel input{
-    max-width: 920px;
     width:100%;
     height: 40px;
     padding-left: 13px;
@@ -99,12 +145,27 @@ header{
  .search-icon{
     background-color:#000;
     position:absolute;
-    padding:7.5px;
-    right:20px;
+    padding:7.5px 20px;
     color: #fff;
-  
+    right:0;
+ }
+ .below-search-menu ul{
+    list-style-type: none;
+ }
+ .below-search-menu ul li{
+    float: left;
+    padding: 0px 10px;
  }
  
+ .shopping-cart-container{
+    width: 20%;
+    text-align:center;
+    font-size: 36pt;
+    padding: 3px;
+    color:#f19066;
+ }
+
+
 
 
     
