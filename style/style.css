@@ -115,10 +115,11 @@ header li a:hover, header li a:hover {
     width:80px;
  }
  .search-w-bottom-menu-container{
+    margin-top:10px;
     width: 72%;
  }
  .search-panel{
-    padding: 10px;
+    /* padding: 10px; */
     position:relative;
  }
 
@@ -145,9 +146,17 @@ header li a:hover, header li a:hover {
  .search-icon{
     background-color:#000;
     position:absolute;
-    padding:7.5px 20px;
+    height:100%;
+    width:40px;
+    text-align:center;
     color: #fff;
+    border: 1px solid #fff;
     right:0;
+
+ }
+ .search-icon i{
+    margin-top:10px;
+
  }
  .below-search-menu ul{
     list-style-type: none;
@@ -155,6 +164,7 @@ header li a:hover, header li a:hover {
  .below-search-menu ul li{
     float: left;
     padding: 0px 10px;
+
  }
  
  .shopping-cart-container{
